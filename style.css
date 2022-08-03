@@ -1,0 +1,309 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  
+  font-family: 'Poppins', sans-serif;
+  background-color: #ecf0f1;
+}
+
+header{
+   
+  background-color: #4416fe;
+  height: 75vh;
+}
+
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+
+
+.nav-item{
+  color: #fff;
+  margin-right: 1.4rem;
+  font-size: 1rem;
+  
+}
+
+.nav-item-active{
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: .5rem .5rem;
+  color:skyblue;
+  background-color: #ecf0f1;
+
+}
+
+.hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6rem;
+}
+
+.header-text{
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.header-text h2{
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.header-text p{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.header-image{
+  position: absolute;
+  right: 0;
+  bottom: 6rem;
+}
+
+
+/*companies*/
+
+.companies{
+  padding: 2rem 0 0 8rem;
+}
+
+.company-items{
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+}
+
+
+.company-items:not(:last-child){
+  margin-right: 2.5rem;
+
+}
+
+
+/*API section*/
+
+.api{
+  padding: 0 8rem;
+  margin-top: 5rem;
+
+}
+
+.api-heading{
+  font-size: 2.5rem;
+}
+
+.cards{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+
+.card-head{
+  font-size: 1.5rem;
+}
+
+.card-body{
+  font-size: 1rem;
+}
+
+.card-active{
+  background-color:#fff;
+  border-radius: 10px;
+  padding: .5rem .5rem;
+}
+
+.card-logo{
+  background-color: #4416fe;
+}
+
+.card-head-active{
+  font-size: 1.5rem;  
+  color: #4416fe;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  
+}
+
+/*blog section*/
+
+section.blog-section {
+  margin: 0 8rem;
+  padding: 5rem 0;
+}
+
+.blog-heading{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog-heading h1{
+  font-size: 1.8rem;
+}
+
+.blog-cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-card{
+  display: flex;
+  background-color: #fff;
+}
+/*
+.blog-card-right{
+  background-color: #fff;
+  
+}*/
+
+.blog-content{
+  color: #000;
+  font-size: 1rem;
+  margin-bottom: .9rem;
+  padding: 1rem 1rem;
+}
+
+.blog-bottom{
+  padding: 1rem 1rem;
+}
+
+.blog-author{
+  padding: 1rem 0;
+}
+
+/*
+.blog-card-left{
+  background-color: #fff;
+  padding: 0 10rem;
+}
+
+
+
+/*FAQ section*/
+
+
+.faq-section{
+  display: flex;
+  background-color:#ccd5fc;;
+  margin-top: 2rem;
+}
+
+.faq-content h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.faq-content h4{
+  margin-top: 1rem;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.faq-content button{
+  padding: 1rem ;
+  background-color: #4416fe;
+  color: #ecf0f1;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+
+}
+
+.faq-image{
+  margin-left: 2rem;
+}
+
+
+/*Download section*/
+
+.download-section{
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: space-between;
+}
+
+.download-content{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.download-email input{
+  background-color: #ccd5fc;
+  padding: .5rem 2.5rem .5rem 2.5rem;
+  border-radius: 10px;
+}
+
+.download-email button{
+  background-color: #4416fe;
+  padding: .5rem 1.5rem .5rem 1.5rem;
+  border-radius: 10px;
+}
+
+
+/*footer*/
+
+
+
+.footer-section{
+  margin-top: 1rem;
+  background-color: #4416fe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1.5rem;
+}
+/*
+.footer-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}*/
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ .list-items{
+  display: flex;
+  justify-content: space-between;
+  padding-left:  1rem;
+  color: #ecf0f1;
+  margin-top: 1rem;
+  
+}
+
+
+.logos-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+}
