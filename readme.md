@@ -2,7 +2,7 @@
 
 ![badge](https://img.shields.io/badge/project--09-computer--boy-brightgreen)
 
-[Link of deploy live project]()
+# [Link of deploy live project](https://computerboy.netlify.app/)
 
 ![LCO](./view09.png)
 
@@ -15,4 +15,4 @@
 
 # Howmany time consumed to make this project.
 
-- It will take less time compare to last 3 projects. But it took 2 hours to make this project.
+- It took at least 8 hours . it is some difficult compare to last project
